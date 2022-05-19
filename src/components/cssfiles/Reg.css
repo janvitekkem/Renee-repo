@@ -1,0 +1,48 @@
+.reg-container{
+  margin-top: 73px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 800px;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-image: url('https://cdn.wallpapersafari.com/61/97/bckN9I.png');
+}
+.form{
+  height: 600px;
+  width: 500px;
+  background-color: rgb(238, 235, 235);
+  align-self: center;
+  justify-self: center;
+  border-radius: 3%;
+  display: grid;
+  grid-template-rows:30% 20% 20% 30% ;
+}
+.form h2{
+  align-self: center;
+  justify-self: center;
+  font-size: 40px;
+}
+.google-button{
+align-self: center;
+justify-self: center;
+}
+.form button{
+  height: 55px;
+  width:240px;
+  align-self: center;
+  justify-self: center;
+  background-color: rgb(177, 57, 224);
+  color: white;
+  font-size: 16px;
+  border:none;
+  cursor: pointer;
+
+}
+.call{
+margin-right: 5px;
+font-size: 16px;
+}
+.existing{
+  align-self: center;
+  justify-self: center;
+}

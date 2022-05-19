@@ -1,0 +1,2144 @@
+
+meditating - https://png.pngtree.com/png-clipart/20210411/ourmid/pngtree-blue-hair-girl-meditating-sports-illustration-png-image_3208985.jpg
+
+mind -https://media.istockphoto.com/photos/adult-and-child-hands-holding-encephalography-brain-paper-stroke-picture-id1306217369?b=1&k=20&m=1306217369&s=170667a&w=0&h=3fKE5a-mBBE7IQ-qwfKORP4gr6pLC2sq-b7LPfIplQo=
+
+gif=https://media1.giphy.com/media/h4fim7zVYskrDEqvil/source.gif
+gif2=https://cdn.dribbble.com/users/6114963/screenshots/15048757/media/59d5f61f899d66d4d5377a3fe50dfbd2.gif
+
+gif reading in space =https://cdn.dribbble.com/users/3897976/screenshots/10602945/media/e2089366ec4db262df134b7f9efcc3c7.gif
+gif floating while meditating =https://cdn.dribbble.com/users/3897976/screenshots/10481161/media/e742b1385cec277a660b9d406c6cdd4e.gif
+profile : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F541276448945968040%2F&psig=AOvVaw1hvXhayS3bCN0zDkQeENTI&ust=1646750068919000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPCynqKctPYCFQAAAAAdAAAAABAF
+        :https://i.pinimg.com/originals/3c/04/d5/3c04d5c919cecc56a9b6bceb2e1f7157.png
+        :https://cdn.dribbble.com/users/1378520/screenshots/6289192/emilia.png?compress=1&resize=400x300
+
+5 div :
+final: https://cdn.dribbble.com/users/1603874/screenshots/6339023/basketball_1.gif
+workout guy yellow:https://i.pinimg.com/originals/6f/8e/de/6f8ede4dab23b0518f0efc61e5810d71.gif
+fat guy:https://cdn.dribbble.com/users/2711807/screenshots/6483348/pull-up-dribbble.gif
+skipping:https://cdn.dribbble.com/users/2259030/screenshots/5053278/jumpingrope-dribble.gif
+pull up purple:https://cdn.dribbble.com/users/1030970/screenshots/3473499/untitled-1.gif
+
+pet > 
+walk:https://i.pinimg.com/originals/64/73/0a/64730afee63c87167cc2d3b68e1c8333.gif
+dog bone:https://cdn.dribbble.com/users/2008861/screenshots/10810834/media/dd42174c95cdb7d065478d67f4bcb591.gif
+
+communicate:
+line form :https://i.pinimg.com/originals/6b/02/1f/6b021fd5ac96dc61fd98626501cec515.gif
+chat screen pink :https://cdn.dribbble.com/users/1894420/screenshots/14081986/media/790c0983a729e5ce15f4d25f42697e77.gif
+
+
+
+
+    font-family: 'Charm', cursive;
+    font-family: 'Open Sans', serif;
+    font-family: 'Handlee', cursive;
+    font-family: 'Dosis', sans-serif;
+
+main-color: rgb(89, 63, 148)
+  background-color:rgb(25,25,112);
+
+
+new div images middle ----https://image.similarpng.com/very-thumbnail/2020/12/Hand-drawing-Loneliness-girl-sitting-alone-under-rains-on-transparent-background-PNG.png
+https://media.istockphoto.com/vectors/thinking-girl-beautiful-face-doubts-problems-thoughts-emotions-woman-vector-id1200639742?k=20&m=1200639742&s=170667a&w=0&h=hMUsoBPKi_R1l4LdLlPXA3txTtkyXhWN34XVUNY-Zek=
+
+
+import React from "react";
+import { GiBrain } from "react-icons/gi";
+import {SiGooglechat} from "react-icons/si"
+import {FaHandsHelping} from "react-icons/fa"
+import {GiJumpAcross} from "react-icons/gi"
+import {FiPhoneCall} from "react-icons/fi"
+import {GiNightSleep} from "react-icons/gi"
+import {MdNoDrinks} from "react-icons/md"
+import {MdOutlinePets} from "react-icons/md"
+import Carousel from '../carousel/Carousel.js'
+import '../components/cssfiles/Home.css';
+
+
+
+const Home=()=>{
+    return (
+
+    <div className="homi">
+        <div className="div1">
+            <h1 className="text11">DEPRESSED ?</h1>
+            <h2 className="text12">Time to get your Mind Healthy ..</h2>
+            <h3 className="text13">hnfdkbjfvsdhfgkesgkjadhfb</h3>
+            <button class="button1" role="button">Read more..</button>
+        </div>
+        <div className="div2">
+        </div>
+
+        <div className="cards">
+        <div className="div3">
+            <h1 className="text34">In depression or just depressed ? </h1>
+            <div className="inline">
+            <h2 className="text35"><GiBrain className="icon"/>Test your Mind</h2>
+            </div>
+            <button className="button2">Test your Mind</button> 
+        </div>
+        <div className="div4">
+        <div class="static-txt">I'm </div>
+            <ul class="dynamic-txts">
+             <li><span>Healthy...</span></li>
+             <li><span>Happy...</span></li>
+             <li><span>Important...</span></li>
+             <li><span>Alive...</span></li>
+            </ul>            
+        </div>
+        <div className="div34">
+            <h1 className="text34">Consult verified Psychiatrists </h1>
+            <div className="inline">
+            <h2 className="text35"><SiGooglechat className="icon"/>Book a session now</h2>
+            <button className="button3">Consult</button> 
+            </div>
+        </div>
+        </div>
+        <div className="divtip">
+            <h1 className="t-tips">Tips to deal with Depression</h1>
+            <div className="divtip2">
+
+            <div className="wholetip">
+            <div className="combi">
+            <FaHandsHelping className="icon2"/>
+            <h1 className="tiphead">Seek out for help</h1>
+            </div>
+            <h2 className="tips">Consulting a Psychiatrists on right time is important </h2>
+            </div>
+
+            <div className="wholetip">
+            <div  className="combi">
+            <GiJumpAcross className="icon2"/>
+            <h1 className="tiphead">Stay Active Physically</h1>
+            </div>
+            <h2 className="tips">Excercise has been proven affective against depression</h2>
+            </div>
+
+            <div className="wholetip">
+            <div  className="combi">
+            <FiPhoneCall className="icon2"/>
+            <h1 className="tiphead">Communication is the key </h1>
+            </div>
+            <h2 className="tips">Don't be embarrassed to talk about your mental health </h2>
+            </div>
+
+            <div className="wholetip">
+            <div  className="combi">
+            <GiNightSleep className="icon2"/>
+            <h1 className="tiphead">Sleep Well but not more </h1>
+            </div>
+            <h2 className="tips">Getting no more than 7-8 hours of sleep is healthy </h2>
+            </div>
+
+            <div className="wholetip">
+            <div  className="combi">
+            <MdNoDrinks className="icon2"/>
+            <h1 className="tiphead">Avoid Alcohol </h1>
+            </div>
+            <h2 className="tips">Alcohol comsumption makes our mind dull and inactive </h2>
+            </div>
+
+            <div className="wholetip">
+            <div  className="combi">
+            <MdOutlinePets className="icon2"/>
+            <h1 className="tiphead">Be in company </h1>
+            </div>
+            <h2 className="tips">It's advised to keep company when feeling depressed </h2>
+            </div>
+
+            </div>
+        </div>
+        
+        <div className="div5">
+
+
+        <div className="div5prt1">
+
+        <div className="circle">
+        <a className="center">
+            <img src="https://cdn5.vectorstock.com/i/thumb-large/13/99/sad-young-girl-flat-bad-mood-vector-28771399.jpg" alt="sitting girl"/>
+        </a>
+        <a className="deg0">
+            <img src="https://cdn.dribbble.com/users/1065420/screenshots/3762357/gwen-sad.gif" alt="sitting girl"/>
+            <h3>
+                Feeling Sad
+            </h3>
+        </a>        
+        <a className="deg45">
+            <img src="https://cdn.dribbble.com/users/1065420/screenshots/3740789/gary-spitting-tea.gif" alt="sitting girl"/>
+            <h3>Loss of Appetite</h3>
+        </a>        
+        <a className="deg135">
+            <img src="https://cdn.dribbble.com/users/1065420/screenshots/3664490/frustrated-gary.gif" alt="sitting girl"/>
+            <h3>Sleep Deprived</h3>
+        </a>        
+        <a className="deg180">
+            <img src="https://cdn.dribbble.com/users/1065420/screenshots/3685827/overworked-gary.gif" alt="sitting girl"/>
+            <h3>Hopelessness</h3>
+        </a>        
+        <a className="deg225">
+            <img src="https://cdn.dribbble.com/users/1065420/screenshots/3723857/gary-trio-of-emotions.gif" alt="sitting girl"/>
+            <h3>Mood Swings</h3>
+        </a>        
+        <a className="deg315">
+            <img src="https://cdn.dribbble.com/users/338485/screenshots/2033822/bulbito.gif" alt="sitting girl"/>
+            <h3>Suicidal Thoughts</h3>
+        </a>
+        </div>
+        <div className="symp">
+        <h2>Symptoms of Depression </h2>
+        <p>Signs of depression varies from person to person.Every 
+            set of symptoms depict different kinds of mental health issues,
+            from clinical depression , MDD(Major depressive disorder) to bipolar 
+            depression.Some common sign include --
+        </p>
+        </div>
+        </div>
+
+
+        <div className="div5prt2">
+            <Carousel/>
+        </div>
+
+
+
+        <div className="div5prt3">
+        <div className="div5-4">
+            Help People Around You ..
+        </div>
+        <div className="div5-6">
+            Those suffering from depression might not always seek out 
+            for help. Small act of kindness can make a big difference.
+            It can be anyone around you.To know more about how to
+             help others click below.
+            <br/>
+             <button className="button1">
+            Read More..
+             </button>   
+        </div>
+
+        <div className="div5-5">
+        </div>
+        </div>
+        </div>
+
+
+    </div>);
+
+};
+
+export default Home;
+
+
+
+
+
+.homi{
+    padding-top:64px;
+    width:100%; margin-top:1px;
+    border: 1px solid grey ;
+    display:grid; color: black ;
+    grid-template-rows: 550px 450px 550px 2400px;
+    grid-template-columns: repeat(2,50%);
+  }
+  
+  
+  
+  /* div-tags */
+  .div1{
+    grid-row:1;
+    grid-column:1/1;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .div2{
+    display: flex;
+    justify-content:center;
+    background-image: url('https://cdn.dribbble.com/users/3897976/screenshots/10481161/media/e742b1385cec277a660b9d406c6cdd4e.gif');
+  }
+
+
+  /* cards start  */
+  .cards{
+    grid-row:2;
+    grid-column:1/-1;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,28rem);
+    margin: 60px 80px 10px 260px;
+    gap:20px;
+  
+  }
+  .left{
+    margin:30px 0 0 00px;
+    justify-content: right;
+  }
+  .right{
+    margin:30px 0px 0 0; 
+    justify-content: left;
+  }
+  
+  .div3{
+    background-color:rgb(226, 47, 107) ;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 10px 0px;
+    max-height: 300px;
+    border-radius: 10px;
+  }
+  .div3:hover{
+    cursor:pointers;
+    border-radius: 1px ;
+    box-shadow:#02021d 15px 15px 40px -8px  ;
+    border-radius: 10px;
+    background-color:rgb(226, 47, 107,0.9) ;
+  }
+
+  .div4{
+    background-color: #fff;
+    /* background-color:rgba(0, 0, 0, 0.774) ; */
+    color:black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 10px 0px;
+    max-height: 300px;
+  
+  }
+  .div34{
+    background-color:rgb(50, 31, 94) ;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 10px 0px ;
+    max-height: 300px;
+    border-radius: 10px;
+  
+  }
+  .div34:hover{
+    cursor:pointer;
+    border-radius: 1px ;
+    box-shadow:#02021d 15px 15px 40px -8px  ;
+    border-radius: 10px;
+    background-color:rgb(50, 31, 94,0.9) ;
+  }
+
+  /* tips start from here */
+
+
+  .divtip{
+    grid-row:3;
+    grid-column:1/-1;
+    background-color: rgb(50, 31, 94);
+    color:white;
+    display:grid;
+    grid-template-rows: 100px 450px;
+    text-align: center;
+  }
+  .divtip2{
+    display:grid;
+    grid-template-rows: repeat(2,50%) ;
+    grid-template-columns: repeat(3,33.33%);
+    column-gap: 25px;
+      text-align: left;
+      font-family: 'Dosis', sans-serif;
+     font-size: 14px;
+     margin: 50px 350px 0 350px;
+   
+  }
+  .wholetip:hover{
+    transform: translateY(-10px);
+  }
+  
+  /* subparts part within division 5 */
+
+
+  .div5{
+    grid-row:4;
+    grid-column: 1/-1;  
+    display:grid;
+    grid-template-rows:repeat(10,10%);
+    grid-template-columns: repeat(7,14.29%);
+    background-color: white;
+  }
+  
+  /* under div 5 */
+
+    /* part 1 */
+
+
+  .div5prt1{
+    /* background-color: rgb(149, 97, 209); */
+    background-color: rgb(111, 74, 197);
+    grid-row:1/5 ;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-rows: repeat(5,20%);
+    grid-template-columns: repeat(7,14.29%);
+  }  
+  /* current changes */
+
+  .circle {
+    grid-row: 2/5;
+    grid-column: 2/7;
+    position: relative;
+    width: 100%;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 8%;
+    padding:8% 0 0 5%;
+  }
+  
+  .circle a {
+    display: block;
+    position: absolute;
+    width: 15%; 
+    border-radius: 50%;
+  }     
+    @keyframes orbit1 {
+      from { 	transform: rotate(0deg) translateX(140%) rotate(0deg); }
+      to   {  transform: rotate(360deg) translateX(140%) rotate(-360deg); }
+    }
+    @keyframes orbit2 {
+      from { 	transform: rotate(60deg) translateX(140%) rotate(-60deg); }
+      to   {  transform: rotate(420deg) translateX(140%) rotate(-420deg); }
+    }    
+    @keyframes orbit3 {
+      from { 	transform: rotate(115deg) translateX(140%) rotate(-115deg); }
+      to   {  transform: rotate(475deg) translateX(140%) rotate(-475deg); }
+    }    
+    @keyframes orbit4 {
+      from { 	transform: rotate(0deg) translateX(-140%) rotate(0deg); }
+      to   {  transform: rotate(360deg) translateX(-140%) rotate(-360deg); }
+    }    
+    @keyframes orbit5 {
+      from { 	transform: rotate(245deg) translateX(140%) rotate(-245deg); }
+      to   {  transform: rotate(614deg) translateX(140%) rotate(-614deg); }
+    }    
+    @keyframes orbit6 {
+      from { 	transform: rotate(310deg) translateX(140%) rotate(-310deg); }
+      to   {  transform: rotate(670deg) translateX(140%) rotate(-670deg); }
+    }  
+    
+  h3{
+    color:whitesmoke ;
+    align-self:center ;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 8%;
+  }
+  .circle img {
+  display: block; width: 100%; 
+  border-radius: 50%;}
+
+  .deg0 { transform: translate(140%);
+    animation: orbit1 10s linear infinite; 
+    }
+  .deg45 { transform: rotate(60deg) translate(130%) rotate(-60deg); 
+    animation: orbit2 10s linear infinite;   }
+
+  .deg135 { transform: rotate(125deg) translate(130%) rotate(-125deg); 
+    animation: orbit3 10s linear infinite;   }
+
+  .deg180 { transform: translate(-140%); 
+    animation: orbit4 10s linear infinite;   
+  }
+  .deg225 { transform: rotate(245deg) translate(113%) rotate(-245deg);
+    animation: orbit5 10s linear infinite; 
+    }
+  .deg315 { transform: rotate(310deg) translate(135%) rotate(-310deg); 
+    animation: orbit6 10s linear infinite}
+
+  .symp{
+      grid-column: 6/-1;
+      grid-row:2/5;
+      color:whitesmoke;
+      margin:  0 25% 0 -30%  ;
+    }
+    .symp h2{
+      font-size: 38px;
+    }
+    .symp p{
+      font-size: 26px;
+      line-height: 3.8rem;
+      font-family: 'Handlee', cursive;
+    }
+
+
+/* end of part 1 */
+  
+  
+  /* part2 */
+  .div5prt2{
+    grid-row: 5/8;
+    grid-column: 1/-1;
+  }
+
+  .div5-2{
+    grid-row:5/7;
+    grid-column: 5/-1;
+    border-radius: 50%;
+    background-image: url('https://cdn.dribbble.com/users/2025439/screenshots/4062776/ml_gif4.gif');
+    border:20px solid rgb(50, 31, 94);
+    background-size: cover;
+    margin:60px 20px -50px 0;
+  }
+  
+
+
+/* part 3 starts here */
+
+  .div5prt3{
+    background-color: rgb(235, 231, 231);
+    grid-row: 8/11;
+    grid-column: 1/-1;
+    display:grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows:30% 70%;
+  }  
+  .div5-4{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    color: rgb(50, 31, 94);
+    text-align: center;
+    align-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    margin:30px;
+  }
+  .div5-6{
+    grid-column: 1/3;
+    grid-row: 2/-1;
+    color: rgb(50, 31, 94);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', serif;
+    margin: 25px;
+  }
+  
+  .div5-5{
+    grid-column: 3/-1;
+    grid-row: 1/-1;
+    background-image: url('https://cdn.dribbble.com/users/3457670/screenshots/6705324/monday-gif.gif');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:150px;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+  
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+  }
+  
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: contain;
+    background-position: center;
+  }
+  .cards{
+    margin-left:180px;
+  }
+  
+  
+  
+  
+  /* for two in one line */
+  @media screen and (max-width:1756px){
+    .homi{
+      grid-template-rows:550px 400px 600px 2000px ;
+    }
+    .cards{
+      margin-top: -9px;
+      grid-template-columns: repeat(autofit,25rem);
+    }
+    .div3,.div4,.div34{
+      margin:0px 0px 0px 0px;
+      max-width: 25rem;
+      grid-row:2 ;
+    }
+    .div3,.div34{
+    padding-bottom: 10px;
+    }
+    .divtip{
+      margin-top: 50px;
+      grid-row:3;
+      grid-column:1/-1;
+      display:grid;
+      grid-template-rows: 100px 450px;
+    }
+    .divtip2{
+      display:grid;
+      grid-template-rows: repeat(2,50%) ;
+      grid-template-columns: repeat(3,33.33%);
+      margin: 30px 200px 0 200px;
+  
+    }
+    .div5{
+      grid-template-rows:repeat(10,10%);
+      grid-template-columns: repeat(7,14.29%);
+    }
+    .div5-0{
+      margin: 15% 20%;
+    }
+
+    .div5prt2{
+      grid-row: 5/8;
+    }
+  
+  .div5prt3{
+    grid-row: 8/-1;
+    grid-column: 1/-1;
+    margin:0px;
+  }
+  .div5-4{
+    font-size: 35px;
+    margin:0px;
+  
+  }
+  .div5-5{
+    margin:0px;
+  }
+  .div5-6{
+  font-size: 20px;
+  }
+  .symp{
+    padding-top: 15%;
+    grid-row:1/5;
+  }
+  .symp h2{
+    font-size: 30px;;
+  }
+  .symp p{
+    font-size: 20px;
+    line-height: 2.8rem;
+  }
+  .circle a{
+    width: 18%;
+  }
+  }
+  
+  
+  
+  /* for three in one line */
+  @media screen and (max-width:1289px){
+  
+    .homi{
+      grid-template-rows:550px 400px 750px 2000px ;
+    }
+    .cards{
+      grid-template-columns: repeat(auto-fit,18rem);
+      margin: 50px 10px 0px 60px;
+      grid-row:2;
+      grid-column:1/-1;
+      gap:10px;
+      display: flex;
+      flex-direction: row;
+    }
+    .div3,.div4,.div34{
+      grid-row:2;
+      grid-column: 3/-1;;
+      max-width: 18rem;
+    }
+    .div34{
+      margin-left: 0px;
+    }
+      .divtip{
+        margin-top: 0px;
+        grid-row:3;
+        grid-column:1/-1;
+      }
+  
+    .divtip{
+      margin-top: 52.0px;
+      grid-row:3;
+      grid-column:1/-1;
+      display:grid;
+      grid-template-rows: 120px 550px;
+    }
+    .divtip2{
+      display:grid;
+      grid-template-rows: repeat(3,33.35%) ;
+      grid-template-columns: repeat(2,50%);
+      margin: 30px 180px 0 180px;
+  
+    }
+    .div5{
+      grid-row:4;
+      grid-column: 1/-1;  
+      display:grid;
+      grid-template-rows:repeat(10,10%);
+      grid-template-columns: repeat(7,14.29%);
+    }
+    .div5-0{
+      margin: 15% 20%;
+    }
+    .circle a{
+      width:17%;
+    }
+    .symp h2{
+      font-size: 26px;
+    }
+    .symp p{
+      line-height: 2.5rem;
+      
+    }
+  
+  }
+  
+  @media screen and (max-width:1000px){
+    .homi{
+      grid-template-rows:550px 400px 750px 1500px ;
+  
+    }
+    .divtip{
+      grid-template-rows: 100px 580px;
+  
+    }
+    .divtip2{
+      display:grid;
+      grid-template-rows: repeat(3,33.35%) ;
+      grid-template-columns: repeat(2,50%);
+      margin: 30px 100px 0 100px;
+  
+    }
+    .div5{
+      grid-template-rows:repeat(10,10%);
+      grid-template-columns: repeat(7,14.29%);
+    }
+    .div5-0{
+      margin: 15% 20%;
+    }
+    .div5-3{
+      margin: 100px 0 -100px 0;
+    }
+    .div5-1{
+      grid-row:2/-1;
+    }  
+    .symp h2{
+      font-size: 26px;
+    }
+    .symp p{
+      line-height: 2rem;
+    }  
+    .symp button{
+      line-height: 15px;
+      width: fit-content;
+      font-size: 14px;
+    }
+    .circle a{
+      width:17%;
+    }
+  }
+  
+  
+  @media screen and (max-width:900px){
+    .homi{
+      grid-template-rows:550px 400px 800px 1500px ;
+  
+    }
+    .divtip{
+      grid-template-rows: 120px 630px;
+    }
+    .divtip2{
+      display:grid;
+      grid-template-rows: repeat(3,33.35) ;
+      grid-template-columns: repeat(2,50%);
+      margin: 30px 90px 0 90px;
+  
+    }
+    .div2{
+      display:none;
+    }
+    .div1{
+      grid-row:1;
+      grid-column:1/-1;
+      background-color:white;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image:url('https://cdn.dribbble.com/users/3897976/screenshots/10481161/media/e742b1385cec277a660b9d406c6cdd4e.gif');
+    }
+    .div5{
+      grid-template-rows:repeat(10,10%);
+      grid-template-columns: repeat(7,14.29%);
+    }
+    .div5-2,.div5-3,.div5-4{
+      background-size: cover;
+    }
+    .div5-0{
+      margin: 25% 20%;
+    }
+    .circle{
+      margin: 8%;
+    }
+    .symp p{
+      font-size: 18px;
+    }
+    .symp h2{
+      font-size: 28px;
+    }
+  }
+  
+  /* for mob */
+  @media screen and (max-width:600px)
+  {
+    .homi{
+      grid-template-rows:550px 850px 1200px 2000px ;
+    }
+    .cards{
+      grid-template-columns: repeat(auto-fit,27.5rem);
+      max-width: 80px;
+      grid-row:2/3;
+      grid-column:1/-1;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      margin:20px 0 0px 240px;
+    }
+    .div2{
+      display:none;
+    }
+    .div1{
+      grid-row:1;
+      grid-column:1/-1;
+      background-color:white;
+      display:flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      margin-left: -80px;
+      background-image:url('https://cdn.dribbble.com/users/3897976/screenshots/10481161/media/e742b1385cec277a660b9d406c6cdd4e.gif');
+    }
+  
+    .div3{
+      width:27.5rem;
+      padding-bottom: 20px;
+      margin: 20px 10px 20px 10px;
+    }
+    .div4{
+      width:27.5rem;
+      margin: 5px 10px 20px 10px;
+    }
+    .div34{
+      width:27.5rem;
+      padding-bottom: 20px;
+      margin: 0 10px 20px 10px;
+    }
+  
+    .divtip{
+      margin-top: 50px;
+      grid-row:3;
+      grid-column:1/-1;
+      display:grid;
+      grid-template-rows: 100px 600px;
+    }
+    .divtip2{
+      display:grid;
+      grid-template-rows: repeat(6,160px) ;
+      grid-template-columns: 100%;
+      margin: 80px 80px 0 80px;
+  
+    }
+    .text34{
+      font-size: 2rem;
+    }
+    .div5{
+      grid-template-rows:repeat(20,5%);
+      grid-template-columns: repeat(5,20%);
+    }
+    .div5prt1{
+      grid-row:1/9 ;
+      grid-column: 1/-1;
+    }
+    .div5-0{
+      grid-row: 1/2;
+      grid-column: 6/9;
+      border-color:rgb(92, 71, 141);
+      border-radius: 50%;
+      margin: 8% 0%;
+    }
+    .div5-1{
+      grid-row:2/-1;
+      grid-column: 2/-1;
+      background-size: 420px 700px;
+      margin: -25px 0 -22px 0;
+      display: grid;
+      grid-template-columns: 20% 70%;
+      grid-template-rows: 15% 85%;
+    }
+    .d51-sub{
+      display:grid;
+      grid-row:2/-1 ;
+      margin-top:20px;
+    }
+  
+    .div5-3{
+      grid-row:5/8;
+      grid-column: 2/6;
+      border-radius: 50%;
+      background-image: url('https://cdn.dribbble.com/users/1603874/screenshots/6339023/basketball_1.gif');
+      background-size:cover;
+      margin: 0px 15px;
+      width: 70%;
+    }
+    .div5prt2{
+      grid-row:9/15 ;
+      grid-column: 1/-1;
+    }
+    .div5prt3{
+      grid-row:15/-1;
+      grid-column: 1/-1;
+      padding-bottom: 45%;
+    }
+    
+  .deg0 {  transform: translate(200%); } 
+  .deg45 { transform: rotate(60deg) translate(200%) rotate(-60deg); }
+  .deg135 { transform: rotate(120deg) translate(200%) rotate(-120deg); }
+  .deg180 { transform: translate(-180%); }
+  .deg225 { transform: rotate(245deg) translate(200%) rotate(-245deg); }
+  .deg315 { transform: rotate(305deg) translate(200%) rotate(-305deg); }
+
+  .circle a {
+    padding-top: 70px;
+    width: 20%;
+  }
+  .symp{
+    grid-row: 3/6;
+    grid-column: 3/-1;
+    padding: 30% 10% 0 10%;
+  }
+  .circle h3{
+    font-size:12px ;
+  }
+    }
+  
+  
+  
+  
+  
+  /* texts */
+  .text11{
+    color:rgb(89, 63, 148);
+    font-family: 'Handlee', cursive;
+    font-size:50px;
+    font-weight:700;
+    padding-bottom: 35px;
+  }
+  .text12{
+    color:rgb(89, 63, 148);
+    font-family: 'Handlee', cursive;
+    font-size:30px;
+    padding-bottom: 25px;
+  }
+  .text13{
+    color:rgb(89, 63, 148);
+    font-family: 'Handlee', cursive;
+    font-size:22px;
+    padding-bottom: 25px;
+  }
+  .text34{
+    color:white;
+    font-family: 'Dosis', sans-serif;
+    font-size:35px;
+    font-weight: 1000;
+    padding: 0 0 25px 0;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .text35{
+    margin-left: 20px;
+    color:white;
+    font-family: 'Dosis', sans-serif;
+    font-size:25px;
+    padding-bottom: 15px;
+    display:flex;
+    flex-direction:column;
+  }
+  .t-tips{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Handlee', cursive;
+    margin: 30px 0 0 0;
+  }
+  .tiphead{
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+  }
+  .tips{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight:500;
+    font-style: italic;
+    margin-right: 8px;
+  }
+  
+  .d51-sub{
+    color:purple;
+    font-family: 'Handlee', cursive;
+    display:grid;
+    grid-row:1/-1;
+    grid-column: 2;
+    font-size: 120%;
+    margin-top: 25px;
+  }
+  
+  .d5text-2{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    
+    align-items: left;
+  }
+  
+  
+  
+  
+  
+  /* buttons */
+  .button1 {
+    background: rgba(79, 43, 163, 0.8);
+    border-radius: 999px;
+    box-shadow: #02021d 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 18px;
+    width: fit-content;
+    border: 0;
+    margin-top:35px;
+  }
+  .button1:hover{
+    background-color: transparent;
+    color:rgb(168, 46, 107);
+    transition:all 0.1s cubic-bezier(1, 0, 0, 1);
+  }
+  .button2 {
+    background: white;
+    border-radius: 999px;
+    box-shadow: #02021d 0 10px 20px -10px;
+    box-sizing: border-box;
+    color:rgb(50, 31, 94) ;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 11px 20px;
+    width:160px;
+    border: 0;
+    margin:2em 0 0 0;
+  }
+  .button2:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+    transition:all 0.1s cubic-bezier(1, 0, 0, 1);
+  }
+  .button3 {
+    background: white;
+    border-radius: 999px;
+    box-shadow: #02021d 0 10px 20px -10px;
+    box-sizing: border-box;
+    color:rgb(50, 31, 94) ;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 18px;
+    width:150px;
+    border: 0;
+    margin:2em 0 0 2rem;
+  }
+  .button3:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+    transition:all 0.1s cubic-bezier(1, 0, 0, 1);
+  }
+  
+  
+  
+  /* icons */
+  .icon{
+    position: relative;
+    font-size: 25px;
+    vertical-align: middle;
+    top:30px;
+    right:30px
+  }
+  .inline{
+    display: inline-block;
+    max-width: fit-content;
+  }
+  .icon2{
+    font-size: 50px;
+    margin: 0 15px 0 -5px;
+  }
+  
+  .combi{
+    display: flex;
+  }
+  
+  
+  
+  
+  /* start - typewriter effect */
+  .div4{
+    display: flex;
+  }
+  .div4 .static-txt{
+    font-family: 'Dosis', sans-serif;
+    color: rgb(78, 70, 70);
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+  .div4 .dynamic-txts{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    color: rgb(226, 47, 107);
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 60px;
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 130%;
+    width: 100%;
+    background-color: #fff;
+    /* background: #383a3d; */
+    border-left: 2px solid rgb(226, 47, 107);
+    margin-top: 9px;
+    animation: typing 3s steps(10) infinite;
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+  
+  
+  
+  
+  
+  /* end  #383b3f*/
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homi{
+    padding-top:64px;
+    width:100%; margin-top:1px;
+    border: 1px solid grey ;
+    display:grid; color: black ;
+    grid-template-rows: 550px 450px 550px 2400px;
+    grid-template-columns: repeat(2,50%);
+  }
+  
+  
+  
+  /* div-tags */
+  .div1{
+    grid-row:1;
+    grid-column:1/1;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .div2{
+    display: flex;
+    justify-content:center;
+    background-image: url('https://cdn.dribbble.com/users/3897976/screenshots/10481161/media/e742b1385cec277a660b9d406c6cdd4e.gif');
+  }
+
+
+  /* cards start  */
+  .cards{
+    grid-row:2;
+    grid-column:1/-1;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,28rem);
+    margin: 60px 80px 10px 260px;
+    gap:20px;
+  
+  }
+  .left{
+    margin:30px 0 0 00px;
+    justify-content: right;
+  }
+  .right{
+    margin:30px 0px 0 0; 
+    justify-content: left;
+  }
+  
+  .div3{
+    background-color:rgb(226, 47, 107) ;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 10px 0px;
+    max-height: 300px;
+    border-radius: 10px;
+  }
+  .div3:hover{
+    cursor:pointers;
+    border-radius: 1px ;
+    box-shadow:#02021d 15px 15px 40px -8px  ;
+    border-radius: 10px;
+    background-color:rgb(226, 47, 107,0.9) ;
+  }
+
+  .div4{
+    background-color: #fff;
+    /* background-color:rgba(0, 0, 0, 0.774) ; */
+    color:black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 10px 0px;
+    max-height: 300px;
+  
+  }
+  .div34{
+    background-color:rgb(50, 31, 94) ;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 10px 0px ;
+    max-height: 300px;
+    border-radius: 10px;
+  
+  }
+  .div34:hover{
+    cursor:pointer;
+    border-radius: 1px ;
+    box-shadow:#02021d 15px 15px 40px -8px  ;
+    border-radius: 10px;
+    background-color:rgb(50, 31, 94,0.9) ;
+  }
+
+  /* tips start from here */
+
+
+  .divtip{
+    grid-row:3;
+    grid-column:1/-1;
+    background-color: rgb(50, 31, 94);
+    color:white;
+    display:grid;
+    grid-template-rows: 100px 450px;
+    text-align: center;
+  }
+  .divtip2{
+    display:grid;
+    grid-template-rows: repeat(2,50%) ;
+    grid-template-columns: repeat(3,33.33%);
+    column-gap: 25px;
+      text-align: left;
+      font-family: 'Dosis', sans-serif;
+     font-size: 14px;
+     margin: 50px 350px 0 350px;
+   
+  }
+  .wholetip:hover{
+    transform: translateY(-10px);
+  }
+  
+  /* subparts part within division 5 */
+
+
+  .div5{
+    grid-row:4;
+    grid-column: 1/-1;  
+    display:grid;
+    grid-template-rows:repeat(10,10%);
+    grid-template-columns: repeat(7,14.29%);
+    background-color: white;
+  }
+  
+  /* under div 5 */
+
+    /* part 1 */
+
+
+  .div5prt1{
+    /* background-color: rgb(149, 97, 209); */
+    background-color: rgb(111, 74, 197);
+    grid-row:1/5 ;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-rows: repeat(5,20%);
+    grid-template-columns: repeat(7,14.29%);
+  }  
+  /* current changes */
+
+  .circle {
+    grid-row: 2/5;
+    grid-column: 2/7;
+    position: relative;
+    width: 100%;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 8%;
+    padding:8% 0 0 5%;
+  }
+  
+  .circle a {
+    display: block;
+    position: absolute;
+    width: 15%; 
+    border-radius: 50%;
+  }     
+    @keyframes orbit1 {
+      from { 	transform: rotate(0deg) translateX(140%) rotate(0deg); }
+      to   {  transform: rotate(360deg) translateX(140%) rotate(-360deg); }
+    }
+    @keyframes orbit2 {
+      from { 	transform: rotate(60deg) translateX(140%) rotate(-60deg); }
+      to   {  transform: rotate(420deg) translateX(140%) rotate(-420deg); }
+    }    
+    @keyframes orbit3 {
+      from { 	transform: rotate(115deg) translateX(140%) rotate(-115deg); }
+      to   {  transform: rotate(475deg) translateX(140%) rotate(-475deg); }
+    }    
+    @keyframes orbit4 {
+      from { 	transform: rotate(0deg) translateX(-140%) rotate(0deg); }
+      to   {  transform: rotate(360deg) translateX(-140%) rotate(-360deg); }
+    }    
+    @keyframes orbit5 {
+      from { 	transform: rotate(245deg) translateX(140%) rotate(-245deg); }
+      to   {  transform: rotate(614deg) translateX(140%) rotate(-614deg); }
+    }    
+    @keyframes orbit6 {
+      from { 	transform: rotate(310deg) translateX(140%) rotate(-310deg); }
+      to   {  transform: rotate(670deg) translateX(140%) rotate(-670deg); }
+    }  
+    
+  h3{
+    color:whitesmoke ;
+    align-self:center ;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 8%;
+  }
+  .circle img {
+  display: block; width: 100%; 
+  border-radius: 50%;}
+
+  .deg0 { transform: translate(140%);
+    animation: orbit1 10s linear infinite; 
+    }
+  .deg45 { transform: rotate(60deg) translate(130%) rotate(-60deg); 
+    animation: orbit2 10s linear infinite;   }
+
+  .deg135 { transform: rotate(125deg) translate(130%) rotate(-125deg); 
+    animation: orbit3 10s linear infinite;   }
+
+  .deg180 { transform: translate(-140%); 
+    animation: orbit4 10s linear infinite;   
+  }
+  .deg225 { transform: rotate(245deg) translate(113%) rotate(-245deg);
+    animation: orbit5 10s linear infinite; 
+    }
+  .deg315 { transform: rotate(310deg) translate(135%) rotate(-310deg); 
+    animation: orbit6 10s linear infinite}
+
+  .symp{
+      grid-column: 6/-1;
+      grid-row:2/5;
+      color:whitesmoke;
+      margin:  0 25% 0 -30%  ;
+    }
+    .symp h2{
+      font-size: 38px;
+    }
+    .symp p{
+      font-size: 26px;
+      line-height: 3.8rem;
+      font-family: 'Handlee', cursive;
+    }
+
+
+/* end of part 1 */
+  
+  
+  /* part2 */
+  .div5prt2{
+    grid-row: 5/8;
+    grid-column: 1/-1;
+  }
+
+  .div5-2{
+    grid-row:5/7;
+    grid-column: 5/-1;
+    border-radius: 50%;
+    background-image: url('https://cdn.dribbble.com/users/2025439/screenshots/4062776/ml_gif4.gif');
+    border:20px solid rgb(50, 31, 94);
+    background-size: cover;
+    margin:60px 20px -50px 0;
+  }
+  
+
+
+/* part 3 starts here */
+
+  .div5prt3{
+    background-color: rgb(235, 231, 231);
+    grid-row: 8/11;
+    grid-column: 1/-1;
+    display:grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows:30% 70%;
+  }  
+  .div5-4{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    color: rgb(50, 31, 94);
+    text-align: center;
+    align-self: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    margin:30px;
+  }
+  .div5-6{
+    grid-column: 1/3;
+    grid-row: 2/-1;
+    color: rgb(50, 31, 94);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', serif;
+    margin: 25px;
+  }
+  
+  .div5-5{
+    grid-column: 3/-1;
+    grid-row: 1/-1;
+    background-image: url('https://cdn.dribbble.com/users/3457670/screenshots/6705324/monday-gif.gif');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:150px;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+  
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+  }
+  
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: contain;
+    background-position: center;
+  }
+  .cards{
+    margin-left:180px;
+  }
+  
+  
+  
+  
+  /* for two in one line */
+  @media screen and (max-width:1756px){
+    .homi{
+      grid-template-rows:550px 400px 600px 2000px ;
+    }
+    .cards{
+      margin-top: -9px;
+      grid-template-columns: repeat(autofit,25rem);
+    }
+    .div3,.div4,.div34{
+      margin:0px 0px 0px 0px;
+      max-width: 25rem;
+      grid-row:2 ;
+    }
+    .div3,.div34{
+    padding-bottom: 10px;
+    }
+    .divtip{
+      margin-top: 50px;
+      grid-row:3;
+      grid-column:1/-1;
+      display:grid;
+      grid-template-rows: 100px 450px;
+    }
+    .divtip2{
+      display:grid;
+      grid-template-rows: repeat(2,50%) ;
+      grid-template-columns: repeat(3,33.33%);
+      margin: 30px 200px 0 200px;
+  
+    }
+    .div5{
+      grid-template-rows:repeat(10,10%);
+      grid-template-columns: repeat(7,14.29%);
+    }
+    .div5-0{
+      margin: 15% 20%;
+    }
+
+    .div5prt2{
+      grid-row: 5/8;
+    }
+  
+  .div5prt3{
+    grid-row: 8/-1;
+    grid-column: 1/-1;
+    margin:0px;
+  }
+  .div5-4{
+    font-size: 35px;
+    margin:0px;
+  
+  }
+  .div5-5{
+    margin:0px;
+  }
+  .div5-6{
+  font-size: 20px;
+  }
+  .symp{
+    padding-top: 15%;
+    grid-row:1/5;
+  }
+  .symp h2{
+    font-size: 30px;;
+  }
+  .symp p{
+    font-size: 20px;
+    line-height: 2.8rem;
+  }
+  .circle a{
+    width: 18%;
+  }
+  }
+  
+  
+  
+  /* for three in one line */
+  @media screen and (max-width:1289px){
+  
+    .homi{
+      grid-template-rows:550px 400px 750px 2000px ;
+    }
+    .cards{
+      grid-template-columns: repeat(auto-fit,18rem);
+      margin: 50px 10px 0px 60px;
+      grid-row:2;
+      grid-column:1/-1;
+      gap:10px;
+      display: flex;
+      flex-direction: row;
+    }
+    .div3,.div4,.div34{
+      grid-row:2;
+      grid-column: 3/-1;;
+      max-width: 18rem;
+    }
+    .div34{
+      margin-left: 0px;
+    }
+      .divtip{
+        margin-top: 0px;
+        grid-row:3;
+        grid-column:1/-1;
+      }
+  
+    .divtip{
+      margin-top: 52.0px;
+      grid-row:3;
+      grid-column:1/-1;
+      display:grid;
+      grid-template-rows: 120px 550px;
+    }
+    .divtip2{
+      display:grid;
+      grid-template-rows: repeat(3,33.35%) ;
+      grid-template-columns: repeat(2,50%);
+      margin: 30px 180px 0 180px;
+  
+    }
+    .div5{
+      grid-row:4;
+      grid-column: 1/-1;  
+      display:grid;
+      grid-template-rows:repeat(10,10%);
+      grid-template-columns: repeat(7,14.29%);
+    }
+    .div5-0{
+      margin: 15% 20%;
+    }
+    .circle a{
+      width:17%;
+    }
+    .symp h2{
+      font-size: 26px;
+    }
+    .symp p{
+      line-height: 2.5rem;
+      
+    }
+  
+  }
+  
+  @media screen and (max-width:1000px){
+    .homi{
+      grid-template-rows:550px 400px 750px 1500px ;
+  
+    }
+    .divtip{
+      grid-template-rows: 100px 580px;
+  
+    }
+    .divtip2{
+      display:grid;
+      grid-template-rows: repeat(3,33.35%) ;
+      grid-template-columns: repeat(2,50%);
+      margin: 30px 100px 0 100px;
+  
+    }
+    .div5{
+      grid-template-rows:repeat(10,10%);
+      grid-template-columns: repeat(7,14.29%);
+    }
+    .div5-0{
+      margin: 15% 20%;
+    }
+    .div5-3{
+      margin: 100px 0 -100px 0;
+    }
+    .div5-1{
+      grid-row:2/-1;
+    }  
+    .symp h2{
+      font-size: 26px;
+    }
+    .symp p{
+      line-height: 2rem;
+    }  
+    .symp button{
+      line-height: 15px;
+      width: fit-content;
+      font-size: 14px;
+    }
+
+  }
+  
+  
+  @media screen and (max-width:900px){
+    .homi{
+      grid-template-rows:550px 400px 800px 1500px ;
+  
+    }
+    .divtip{
+      grid-template-rows: 120px 630px;
+    }
+    .divtip2{
+      display:grid;
+      grid-template-rows: repeat(3,33.35) ;
+      grid-template-columns: repeat(2,50%);
+      margin: 30px 90px 0 90px;
+  
+    }
+    .div2{
+      display:none;
+    }
+    .div1{
+      grid-row:1;
+      grid-column:1/-1;
+      background-color:white;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image:url('https://cdn.dribbble.com/users/3897976/screenshots/10481161/media/e742b1385cec277a660b9d406c6cdd4e.gif');
+    }
+    .div5{
+      grid-template-rows:repeat(10,10%);
+      grid-template-columns: repeat(7,14.29%);
+    }
+    .div5-2,.div5-3,.div5-4{
+      background-size: cover;
+    }
+    .div5-0{
+      margin: 25% 20%;
+    }
+    .circle{
+      margin: 8%;
+    }
+    .symp p{
+      font-size: 18px;
+    }
+    .symp h2{
+      font-size: 28px;
+    }
+  }
+  
+  /* for mob */
+  @media screen and (max-width:600px)
+  {
+    .homi{
+      grid-template-rows:550px 850px 1200px 2000px ;
+    }
+    .cards{
+      grid-template-columns: repeat(auto-fit,27.5rem);
+      max-width: 80px;
+      grid-row:2/3;
+      grid-column:1/-1;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      margin:20px 0 0px 240px;
+    }
+    .div2{
+      display:none;
+    }
+    .div1{
+      grid-row:1;
+      grid-column:1/-1;
+      background-color:white;
+      display:flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      margin-left: -80px;
+      background-image:url('https://cdn.dribbble.com/users/3897976/screenshots/10481161/media/e742b1385cec277a660b9d406c6cdd4e.gif');
+    }
+  
+    .div3{
+      width:27.5rem;
+      padding-bottom: 20px;
+      margin: 20px 10px 20px 10px;
+    }
+    .div4{
+      width:27.5rem;
+      margin: 5px 10px 20px 10px;
+    }
+    .div34{
+      width:27.5rem;
+      padding-bottom: 20px;
+      margin: 0 10px 20px 10px;
+    }
+  
+    .divtip{
+      margin-top: 50px;
+      grid-row:3;
+      grid-column:1/-1;
+      display:grid;
+      grid-template-rows: 100px 600px;
+    }
+    .divtip2{
+      display:grid;
+      grid-template-rows: repeat(6,160px) ;
+      grid-template-columns: 100%;
+      margin: 80px 80px 0 80px;
+  
+    }
+    .text34{
+      font-size: 2rem;
+    }
+    .div5{
+      grid-template-rows:repeat(20,5%);
+      grid-template-columns: repeat(5,20%);
+    }
+    .div5prt1{
+      grid-row:1/9 ;
+      grid-column: 1/-1;
+    }
+    .div5-0{
+      grid-row: 1/2;
+      grid-column: 6/9;
+      border-color:rgb(92, 71, 141);
+      border-radius: 50%;
+      margin: 8% 0%;
+    }
+    .div5-1{
+      grid-row:2/-1;
+      grid-column: 2/-1;
+      background-size: 420px 700px;
+      margin: -25px 0 -22px 0;
+      display: grid;
+      grid-template-columns: 20% 70%;
+      grid-template-rows: 15% 85%;
+    }
+    .d51-sub{
+      display:grid;
+      grid-row:2/-1 ;
+      margin-top:20px;
+    }
+  
+    .div5-3{
+      grid-row:5/8;
+      grid-column: 2/6;
+      border-radius: 50%;
+      background-image: url('https://cdn.dribbble.com/users/1603874/screenshots/6339023/basketball_1.gif');
+      background-size:cover;
+      margin: 0px 15px;
+      width: 70%;
+    }
+    .div5prt2{
+      grid-row:9/15 ;
+      grid-column: 1/-1;
+    }
+    .div5prt3{
+      grid-row:15/-1;
+      grid-column: 1/-1;
+      padding-bottom: 45%;
+    }
+    
+  .deg0 {  transform: translate(200%); } 
+  .deg45 { transform: rotate(60deg) translate(200%) rotate(-60deg); }
+  .deg135 { transform: rotate(120deg) translate(200%) rotate(-120deg); }
+  .deg180 { transform: translate(-180%); }
+  .deg225 { transform: rotate(245deg) translate(200%) rotate(-245deg); }
+  .deg315 { transform: rotate(305deg) translate(200%) rotate(-305deg); }
+
+  .circle a {
+    padding-top: 70px;
+    width: 20%;
+  }
+  .circle{
+    grid-row: 1/3;
+    grid-column: 1/-1;
+    margin-left: 30%;
+  }
+  .symp{
+    grid-row: 3/6;
+    grid-column: 3/-1;
+    padding: 30% 10% 0 10%;
+  }
+  .circle h3{
+    font-size:12px ;
+  }
+    }
+  
+  
+  
+  
+  
+  /* texts */
+  .text11{
+    color:rgb(89, 63, 148);
+    font-family: 'Handlee', cursive;
+    font-size:50px;
+    font-weight:700;
+    padding-bottom: 35px;
+  }
+  .text12{
+    color:rgb(89, 63, 148);
+    font-family: 'Handlee', cursive;
+    font-size:30px;
+    padding-bottom: 25px;
+  }
+  .text13{
+    color:rgb(89, 63, 148);
+    font-family: 'Handlee', cursive;
+    font-size:22px;
+    padding-bottom: 25px;
+  }
+  .text34{
+    color:white;
+    font-family: 'Dosis', sans-serif;
+    font-size:35px;
+    font-weight: 1000;
+    padding: 0 0 25px 0;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .text35{
+    margin-left: 20px;
+    color:white;
+    font-family: 'Dosis', sans-serif;
+    font-size:25px;
+    padding-bottom: 15px;
+    display:flex;
+    flex-direction:column;
+  }
+  .t-tips{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Handlee', cursive;
+    margin: 30px 0 0 0;
+  }
+  .tiphead{
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+  }
+  .tips{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight:500;
+    font-style: italic;
+    margin-right: 8px;
+  }
+  
+  .d51-sub{
+    color:purple;
+    font-family: 'Handlee', cursive;
+    display:grid;
+    grid-row:1/-1;
+    grid-column: 2;
+    font-size: 120%;
+    margin-top: 25px;
+  }
+  
+  .d5text-2{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    
+    align-items: left;
+  }
+  
+  
+  
+  
+  
+  /* buttons */
+  .button1 {
+    background: rgba(79, 43, 163, 0.8);
+    border-radius: 999px;
+    box-shadow: #02021d 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 18px;
+    width: fit-content;
+    border: 0;
+    margin-top:35px;
+  }
+  .button1:hover{
+    background-color: transparent;
+    color:rgb(168, 46, 107);
+    transition:all 0.1s cubic-bezier(1, 0, 0, 1);
+  }
+  .button2 {
+    background: white;
+    border-radius: 999px;
+    box-shadow: #02021d 0 10px 20px -10px;
+    box-sizing: border-box;
+    color:rgb(50, 31, 94) ;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 11px 20px;
+    width:160px;
+    border: 0;
+    margin:2em 0 0 0;
+  }
+  .button2:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+    transition:all 0.1s cubic-bezier(1, 0, 0, 1);
+  }
+  .button3 {
+    background: white;
+    border-radius: 999px;
+    box-shadow: #02021d 0 10px 20px -10px;
+    box-sizing: border-box;
+    color:rgb(50, 31, 94) ;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 18px;
+    width:150px;
+    border: 0;
+    margin:2em 0 0 2rem;
+  }
+  .button3:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+    transition:all 0.1s cubic-bezier(1, 0, 0, 1);
+  }
+  
+  
+  
+  /* icons */
+  .icon{
+    position: relative;
+    font-size: 25px;
+    vertical-align: middle;
+    top:30px;
+    right:30px
+  }
+  .inline{
+    display: inline-block;
+    max-width: fit-content;
+  }
+  .icon2{
+    font-size: 50px;
+    margin: 0 15px 0 -5px;
+  }
+  
+  .combi{
+    display: flex;
+  }
+  
+  
+  
+  
+  /* start - typewriter effect */
+  .div4{
+    display: flex;
+  }
+  .div4 .static-txt{
+    font-family: 'Dosis', sans-serif;
+    color: rgb(78, 70, 70);
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+  .div4 .dynamic-txts{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+  .dynamic-txts li{
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    color: rgb(226, 47, 107);
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100%{
+      top: -360px;
+    }
+  }
+  .dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 60px;
+  }
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 130%;
+    width: 100%;
+    background-color: #fff;
+    /* background: #383a3d; */
+    border-left: 2px solid rgb(226, 47, 107);
+    margin-top: 9px;
+    animation: typing 3s steps(10) infinite;
+  }
+  @keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+  
+  
+  
+  
+  
+  /* end  #383b3f*/
+  

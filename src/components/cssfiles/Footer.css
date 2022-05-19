@@ -1,0 +1,164 @@
+.foot{
+    width:100%;
+    height:350px;
+    display:grid;
+    grid-template-rows: 25% 75%;
+    position: sticky;
+}
+.foot1{
+    display:grid;
+    grid-template-columns: 35% 65%;
+    background-color: rgb(89, 63, 148);
+}
+.foot2{
+    display:grid;
+    grid-template-columns: repeat(3,33.34%);
+    background-color: rgb(65, 46, 109);
+}
+.con{
+    color:white;
+    font-family: 'Open Sans', serif;
+    font-size: 18px;
+    font-weight:300;
+    text-align: center;
+    align-self: center;
+    margin:0;
+}
+.con-icon{
+    color: white;
+    align-self: center;
+    margin-right: 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    padding:8px 9px 6px 5px;
+    border:1px solid white;
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+    text-align: right;
+    align-self: center;
+}
+.para{
+    display: grid;
+    grid-template-rows: 25% 85%;
+    color:white;    
+    text-align: center;
+    padding:10% 10% 10% 25%;
+}
+.para2{
+    display: grid;
+    grid-template-rows: 25% 85%;
+    color:white;    
+    text-align: center;
+    padding:10% 0% 10% 15%;
+}
+.para3{
+    display: grid;
+    grid-template-rows: 25% 85%;
+    color:white;    
+    text-align: left;
+    padding:10% 0% 10% 0%;
+}
+h2{
+    text-align: left;
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+}
+p{
+    font-size:14px ;
+    text-align: left;
+    margin-top: 20px;
+}
+a{
+    color:white;
+}
+.icon3{
+    font-size: 20px;
+}
+.WrtSub{
+    
+    display: inline-block;
+    max-width: fit-content;
+}
+.write{
+    line-height:22px ;
+    margin-right: 5px;
+}
+.btn{
+    background-color: rgb(189, 37, 113);
+    line-height: 25px;
+    width:80px;
+    color: white;
+    border:0;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:800px){
+    .foot{
+        height: 650px;
+        grid-template-rows: 10% 90%;
+    }
+    .foot2{   
+        grid-template-rows: repeat(3,33.34%);
+        grid-template-columns: 100%;
+        align-items: center;
+    }
+    .para{
+        padding: 5% 20%;
+    }
+    .para2{
+        padding: 5% 20%;
+    }   
+     .para3{
+        padding: 5% 20%;
+    }
+    .WrtSub,h2,p,a{
+        padding-left: 20%;
+    }
+}
+      
+@media screen and (max-width:600px){
+.foot{
+    height: 700px;
+    grid-template-rows:70px 630px;
+}
+.con{
+    font-size: 15px;
+}
+.WrtSub,h2,p,a{
+    padding-left: 0;
+}
+
+}
+
+@media screen and (max-width:450px){
+    .foot{
+        height:700px;
+        margin-top: -100px;
+        grid-template-rows:15% 85% ;
+    }
+    .foot1{
+        grid-template-columns: 100%;
+        grid-template-rows: 35% 75%;
+    }
+    .con{
+        font-size: 18px;
+    }
+    .list{
+        text-align: center;
+    }
+    input{
+        width:100%;
+        margin-bottom: 5px;;
+    }
+    button{
+        align-items: center;
+        justify-self:center;
+        align-self: center;
+    }
+
+}

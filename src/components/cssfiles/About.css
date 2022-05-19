@@ -1,0 +1,8 @@
+.ab-container{
+    margin-top: 73px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 800px;
+    align-items: center;
+    text-align: center;
+}
