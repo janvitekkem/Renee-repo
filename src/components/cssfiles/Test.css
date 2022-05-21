@@ -1,0 +1,42 @@
+img{
+   height:50%;
+   width:100%; 
+   object-fit:cover;
+   display: flex;
+   flex-direction: row;
+}
+.test-cont{
+   margin-top: 73px;
+   display: grid;
+   grid-template-columns: 40% 60%;
+   grid-template-rows: 800px;
+   align-items: center;
+   text-align: center;
+   background-color: rgb(235, 238, 241);
+}
+
+.test{
+   display: grid;
+   grid-template-columns: 100%;
+   grid-template-rows: 100px 200px 200px;
+}
+.test h1{
+   margin-top: 0%;
+} .test p{
+   padding:0 5%;
+}
+.test h3{
+   color:rgba(79, 43, 163);
+   font-size: 20px;
+}
+.test h1, .test p, .test h3{
+   text-align: center;
+}
+.test button{
+   color:rgb(235, 238, 241);
+   background-color: rgb(79, 43, 163);
+   height: 120px;
+   width: 120px;
+   justify-self: center;
+   margin-top: -7%;
+}
