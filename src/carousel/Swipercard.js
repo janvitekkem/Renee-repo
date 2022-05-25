@@ -2,7 +2,7 @@ import React from 'react';
 import './Swiper.css';
 import Swiperdata from './Swiperdata.js'
 
-const Swipercard=({slides}) =>{
+const Swipercard=() =>{
 
     return(
         <>

@@ -7,14 +7,28 @@ img{
 }
 .test-cont{
    margin-top: 73px;
+   align-items: center;
+   text-align: center;
+   background-color: rgb(235, 238, 241);
+   display: grid;
+   grid-template-rows: 800px;
+}
+.testbegin{
    display: grid;
    grid-template-columns: 40% 60%;
-   grid-template-rows: 800px;
+   grid-template-rows:  800px;
    align-items: center;
    text-align: center;
    background-color: rgb(235, 238, 241);
 }
-
+.testwrap{
+   display: grid;
+   grid-template-columns: 100%;
+   grid-template-rows:  600px 200px;
+   align-items: center;
+   text-align: center;
+   background-color: rgb(235, 238, 241);
+}
 .test{
    display: grid;
    grid-template-columns: 100%;
@@ -39,4 +53,8 @@ img{
    width: 120px;
    justify-self: center;
    margin-top: -7%;
+}
+.test button:hover{
+   background-color:rgb(235, 238, 241);
+   color: rgb(79, 43, 163);
 }

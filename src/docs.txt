@@ -2142,3 +2142,38 @@ export default Home;
   
   /* end  #383b3f*/
   
+
+
+
+
+
+
+  const Card=()=>{
+
+    //const [change,setChange]=React.useState(0)
+
+
+    return(
+        <div>
+
+        {/* {Testdata.map((slides,index)=>{
+            return(
+                <div>
+                <h1 style={{"margin-top":"50px", }}>{slides.q} number {index}</h1>
+                <button className="button1" style={{"margin-top":"80px","width":"300px" }}>{slides.a1}</button><br/>
+                <button className="button1"  style={{"margin-top":"80px", "width":"300px"}}>{slides.a2}</button><br/>
+                <button className="button1"  style={{"margin-top":"80px", "width":"300px"}}>{slides.a3}</button>
+                {index==0? 
+                    <button className="button2">Next</button>
+                    :
+                    <>
+                <button className="button2">Previous</button>
+                <button className="button2">Next</button></>
+                }
+            </div>
+            )
+        })} */}
+        </div>
+        );
+};
+
