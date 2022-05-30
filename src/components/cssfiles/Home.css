@@ -982,7 +982,6 @@ width: 100%;
     color: white;
     font-size: 50px;
     font-weight: 800;
-    
     align-items: left;
   }
   
@@ -1009,8 +1008,9 @@ width: 100%;
     text-decoration: none;
   }
   .button1:hover{
-    background-color: transparent;
-    color:rgb(168, 46, 107);
+    color: white;
+    /* background-color:rgb(168, 46, 107); */
+    background-color: rgb(118, 125, 221);
     transition:all 0.1s cubic-bezier(1, 0, 0, 1);
   }
   .button2 {
