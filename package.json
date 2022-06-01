@@ -28,7 +28,7 @@
   
   "scripts": {
     "start": "yarn start",
-    "build": "yarn build",
+    "build": "npm build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
