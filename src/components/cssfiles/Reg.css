@@ -5,12 +5,13 @@
   grid-template-rows: 800px;
   background-size:cover ;
   background-repeat: no-repeat;
-  background-image: url('https://cdn.wallpapersafari.com/61/97/bckN9I.png');
+  background-color:rgb(190, 160, 236);
 }
 .form{
   height: 600px;
   width: 500px;
-  background-color: rgb(238, 235, 235);
+  /* background-color: rgb(238, 235, 235); */
+  background-color: rgb(236, 235, 238); 
   align-self: center;
   justify-self: center;
   border-radius: 3%;

@@ -1,7 +1,7 @@
 const Swiperdata=[
     {
         id:1,
-        story:" 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamusbcksyrntksiuetyaviuwbtlieynrgsiueygrl rhbcsgtrbuzry ziurhncrhgliuzrtiua zdfugghs fgrgji jkjgjhgind  sfighisurithwr ",
+        story:" 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamusbcksyrieynrgsiueygrl rhbcsgtrbuzry ziurhncrhgliuzrtiua zdfugghs fgrgji jkjgjhgind  sfighisurithwr ",
         author:"~abc",
         picture:"https://cdn.dribbble.com/users/223529/screenshots/8021729/media/c9e77bcf4dbf9dd169db40127882912d.jpg?compress=1&resize=400x300",
     },

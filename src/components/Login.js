@@ -3,11 +3,11 @@ import { Form, Alert } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import GoogleButton from "react-google-button";
 import { useUserAuth } from "../UserAuth/UserAuth.js";
-import '../components/cssfiles/Reg.css'
-import {SignInWithGoogle} from '../components/Firebase.js';
+import './cssfiles/Reg.css'
+import {SignInWithGoogle} from './Firebase.js';
 import {FiPhoneCall} from "react-icons/fi"
-import Pulse from 'react-reveal/Pulse';
-import Tada from 'react-reveal/Tada';
+import Pulse from 'react-reveal/Pulse.js';
+import Tada from 'react-reveal/Tada.js';
 
 const Login = () => {
 
@@ -19,7 +19,7 @@ const Login = () => {
     <GoogleButton onClick={SignInWithGoogle} className="google-button">Sign in with Google</GoogleButton>
     <div className="existing">
       Existing user ? 
-      <p>Login in with phone humber </p>
+      <p>Login in with phone number </p>
     </div>
     </form>
   )

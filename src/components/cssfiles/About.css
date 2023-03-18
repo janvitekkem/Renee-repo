@@ -2,7 +2,43 @@
     margin-top: 73px;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 800px;
-    align-items: center;
-    text-align: center;
+    grid-template-rows: 250px 1000px;
+    /* text-align: center; */
 }
+.ab-container ul{
+    background-color: rgb(73, 55, 88);
+    color: white;
+    justify-self:center;
+    height: 250px;
+    width: 100%;
+    line-height: 3rem;
+    font-size: 1.4rem;
+    padding-left: 5%;
+    font-weight: 900;
+}
+.ab-container li {
+    padding-left: 3%;
+}
+.ab-container li a{
+    font-size: 1.2rem;
+    font-family: 'Handlee';
+    color: white;
+    text-decoration:none;
+}
+.ab-container li a:hover{
+    padding-left: 6%;
+}
+.ab-container section{
+padding:3% 8%;
+}
+section p{
+    color: rgb(85, 85, 85);
+    font-weight: 800;
+    font-size: 16px;
+}
+.ab-container section h1{
+    font-size: 25px;
+    color: rgb(95, 66, 163);
+}
+
+

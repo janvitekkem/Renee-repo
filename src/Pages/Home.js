@@ -10,7 +10,7 @@ import {MdOutlinePets} from "react-icons/md"
 import Carousel from '../carousel/Carousel.js'
 import '../components/cssfiles/Home.css';
 import {Link } from 'react-router-dom'
-import Swipercard from '/home/janvi/Renee/renee/src/carousel/Swipercard.js'
+import Swipercard from '../carousel/Swipercard.js'
 
 
 
@@ -27,7 +27,7 @@ const Home=()=>{
             saddness, loss of interest in regular activities, has negative thought procedure regarding any or all life events.Cause for depression
             might be psychological, social or ..
             </h3><br/>
-            <Link to="about" class="button1" role="button">Read more..</Link>
+            <Link to="about" target="_blank" class="button1" role="button">Read more..</Link>
             </div>
         </div>
 
@@ -43,7 +43,7 @@ const Home=()=>{
             <div className="inline">
             <h2 className="text35"><GiBrain className="icon"/>Test your Mind</h2>
             </div><br/>
-            <Link to="test" className="button2">Test your Mind</Link> 
+            <Link to="test" target="_blank" className="button2">Test your Mind</Link> 
         </div>
         <div className="div4">
         <div class="static-txt">I'm </div>
@@ -51,7 +51,7 @@ const Home=()=>{
              <li><span>Healthy...</span></li>
              <li><span>Happy...</span></li>
              <li><span>Important...</span></li>
-             <li><span>Alive...</span></li>
+             <li><span>Valued...</span></li>
             </ul>            
         </div>
         <div className="div34">
@@ -59,7 +59,7 @@ const Home=()=>{
             <div className="inline">
             <h2 className="text35"><SiGooglechat className="icon"/>Book a session now</h2>
             <br/>
-            <Link to="consult" className="button3">Consult</Link> 
+            <Link to="consult" target="_blank" className="button3">Consult</Link> 
             </div>
         </div>
         </div>
@@ -164,7 +164,7 @@ const Home=()=>{
             from clinical depression , MDD(Major depressive disorder) to bipolar 
             depression.Some common sign include --
         </p><br/>
-        <Link to="/about" className="button2">Read More..</Link>
+        <Link to="/about" target="_blank" className="button2">Read More..</Link>
         </div>
         </div>
 
@@ -186,7 +186,7 @@ const Home=()=>{
             for them .Here lists some ways to help others .
 
             <br/><br/>
-             <Link to="about" className="button1">
+             <Link to="about" target="_blank" className="button1">
             Read More..
              </Link>   
         </div>

@@ -5,8 +5,7 @@ import "swiper/css";
 import "swiper/css/effect-flip";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import Swipercard from '../carousel/Swipercard';
-import Swiperdata from '../carousel/Swiperdata'
+import Swiperdata from './Swiperdata'
 import { EffectFlip,Parallax, Pagination, Navigation } from "swiper";
 import { GiPurpleTentacle, GiWhiteBook } from "react-icons/gi";
 

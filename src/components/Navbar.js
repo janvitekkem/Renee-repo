@@ -30,7 +30,6 @@ const Navbar=() => {
             <ul className={clicked ? "menu-css" : "menu-css close"}>{menu}</ul>
         </nav>
 
-
     );
 };
 

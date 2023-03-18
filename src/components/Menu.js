@@ -7,10 +7,10 @@ export const Menu=[
         title:"Test",
         url: "/test"
     },
-    {
-        title:"Connect",
-        url :"/connect"
-    },
+    // {
+    //     title:"Connect",
+    //     url :"/connect"
+    // },
     {
         title:"Consult",
         url :"/consult"
