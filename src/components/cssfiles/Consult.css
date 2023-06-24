@@ -1,0 +1,9 @@
+.con-container{
+    margin-top: 73px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 800px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-color:rgb(190, 160, 236);
+  }
